@@ -1,0 +1,120 @@
+/*********** GENERAL ***********/
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.6rem;
+}
+
+
+a {
+	text-decoration: none;
+	font-size: 1.4rem;
+	color: #000;
+}
+
+img {
+	width: 100%;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+	padding-top: 200px;
+}
+
+
+/*********** HEADER ***********/
+
+header{
+	background: grey;
+	display: flex;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+ 	align-items: center;
+}
+header .box{
+	flex: auto;
+}
+
+header .logo-container{
+	padding: 0%;
+}
+header img{
+	width: 100px;
+}
+
+
+/*********** NAVIGATION ***********/
+
+
+nav {
+	background: grey;
+	padding: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav li a {
+	color: black;
+	background: green;
+	display: inline-block;
+	padding: 5px 10px;
+	text-transform: uppercase;
+}
+
+
+/***** FOOTER ********/
+
+footer {
+	text-align: center;
+	padding: 15px;
+}
+
+footer img {
+	width: 24px;
+}
+
+footer a {
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+footer p {
+	font-size: 1.2rem;
+}
